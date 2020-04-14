@@ -46,7 +46,7 @@ the menu, we right-click on it and select `Run as administrator`.  In the window
 that opens, we type
 
     assoc .py=pythonsource
-    ftype pythonsource=<your python path> "%1" %*
+    ftype pythonsource="<your python path>" "%1" %*
 
 Where `<your python path>` is the path we copied during installation.  On my
 machine, the Python path is
